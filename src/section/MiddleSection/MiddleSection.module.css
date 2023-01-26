@@ -1,0 +1,123 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    background-color: #ffffffe6;
+    height: 20em;
+    width: 34em;
+    padding-left: -2em;
+}
+.option{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid;
+    width: 37.9rem;
+    margin-left: -3rem;
+}
+.tweetDialog{
+    margin-top: 7.5rem;
+    border: 1px solid;
+    /* width: 50em; */
+    padding: 2.2em;
+    margin-left: -3em;
+}
+.mainBox{
+    border: 1px solid;
+    padding-left: 0.8em;
+    padding-right: 1em;
+    /* width: 35vw; */
+   /* overflow: hidden; */
+}
+
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  /* padding-left: -2em; */
+  box-sizing: border-box;
+  height: 8vh;
+}
+.iconbtn {
+  background-color: white;
+  border: none;
+}
+.iconbtn:hover {
+  background-color: rgb(218 218 218 / 100%);
+  cursor: pointer;
+  border-radius: 2em;
+}
+
+ .wrap {
+ 
+    text-align: center;
+   /* width: 100%; */
+  cursor: pointer; 
+ 
+ } 
+.wrap:hover {
+  background-color: rgb(218 218 218 / 100%);
+}
+
+.tweet {
+  /* border: 1px solid; */
+  /* position: absolute; */
+  width: 32rem;
+  /* left: 0.1em; */
+  /* border: 1px solid; */
+  border-top: 0.01px solid black;
+  border-bottom: 0.01px solid black;
+  padding: 1em;
+}
+.tweeter{
+    /* border: 1px solid; */
+}
+.what {
+  padding-left: 4em;
+  
+}
+
+.icons {
+  border: 0px solid;
+  /* width: 28em; */
+  border: none;
+  display: flex;
+  gap: 0.5em;
+}
+.spacing {
+  display: flex;
+  gap: 2em;
+}
+.btn {
+  /* width: 5em; */
+  height: 2em;
+  /* margin: 4px; */
+  padding: 0.3px;
+  cursor: pointer;
+  font-family: "Google Sans", arial, sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.25px;
+  text-align: center;
+  white-space: nowrap;
+  border: 0 solid rgb(255, 255, 255);
+  border-radius: 30px;
+  background-color: rgb(24, 141, 187);
+  color: #ffffff;
+}
+
+.Content {
+  top: 10%;
+
+  margin-top: 2em;
+  padding: 2em;
+}
+.header{
+    /* overflow: hidden; */
+    position: fixed;
+    
+}
+.container{
+    padding-top: 165px;
+   
+    
+}

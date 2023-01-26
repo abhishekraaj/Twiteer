@@ -1,0 +1,12 @@
+.box{
+    height: 3000px;
+    margin-left: 2vw;
+  width: 400px;
+
+}
+
+.fix{
+    position: sticky;
+    top: 1rem;
+    /* height: 200px; */
+}

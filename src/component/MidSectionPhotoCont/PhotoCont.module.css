@@ -1,0 +1,24 @@
+.box{
+    display: flex;
+   
+}
+.main{
+display: grid;
+grid-template-columns:1fr 5fr  ;
+border-bottom: 0.01em solid;
+padding-top: 1em;
+
+}
+.icons{
+    display: flex;
+    gap: 1.5em;
+     font-size: 1.5em;
+     padding-top: 0.5em;
+}
+.iconsHover{
+    /* width: 2em; */
+    padding: 0.3em;
+}
+.iconsHover:hover{
+    background-color: rgb(218 218 218 )
+}

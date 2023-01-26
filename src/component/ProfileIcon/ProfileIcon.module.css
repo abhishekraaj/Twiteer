@@ -1,0 +1,24 @@
+.main{
+    display : flex;
+    /* flex-direction:column ; */
+    padding-top: -5em;
+    gap: 0.7em;
+    /* justify-content: space-around; */
+  }
+  .User{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .point{
+    /* //display: flex; */
+    margin-top: 0.5em;
+    margin-left: 1em;
+    /* //align-items: center; */
+  }
+  .option{
+    background-color: aliceblue;
+  }
+  .option:hover{
+    background-color:  rgb(218 218 218 / 100%);
+  }

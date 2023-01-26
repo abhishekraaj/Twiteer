@@ -1,0 +1,44 @@
+textarea:focus{
+    color :black;
+    outline:0.09em solid #fff;
+    font-size: 1.3em;
+  }
+  
+  .foucs{
+    border: 0px solid;
+    padding: 1.5em;
+    width: 30em;
+    height: 7em;
+  }
+  
+  .dialohbottom{
+    display: flex;
+  }
+
+  .icons{
+    border: 0px solid;
+    width: 28em;
+    border: none;
+    display: flex;
+    gap :0.5em;
+    
+
+  }
+
+  .btn{
+    width: 13.5em;
+ height: 3em;
+ margin: 12px;
+ /* padding: 0,3px; */
+ cursor: pointer;
+ font-family: "Google Sans",arial,sans-serif;
+ font-size: 1em;
+ letter-spacing: 0.25px;
+ text-align: center;
+ white-space: nowrap;
+ border: 0 solid rgb(255, 255, 255);
+ border-radius: 30px;
+ background-color:rgb(24, 141, 187);
+ color: #ffffff;
+  }
+  

@@ -1,0 +1,23 @@
+ .input{
+    box-sizing: border-box;
+    width: 14em;
+    height: 1.8em;
+    font-size: 1.5em;
+    border-radius:0.3em;
+    border: 0.06em solid rgb(52, 52, 52);
+
+}
+
+input::placeholder {
+    color: rgb(120, 120, 120);
+    font-size: 0.7em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+input:focus {
+    color :rgb(0, 0, 0);
+    outline:0.09em solid rgb(44, 180, 238);
+
+} 
+
+  

@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    position: relative;
+    overflow-y: hidden;
+    /* height: 2000vh; */
+}
+.left{
+    width: 28%;
+  box-sizing: border-box;
+  height: 20vh;
+  border: 0px solid black ; 
+  position: fixed;
+}
+
+.right{
+    height: 1000px;
+    width: 28.1%;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+   padding-left: 1.5em;
+   padding-top: 0.2em;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   left: 1000px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+.rightbotfixed{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    width: 20px ;
+}
+.right::-webkit-scrollbar{
+     display: none; 
+}
+.mid::-webkit-scrollbar{
+    display: none; 
+}
+
+.mid{
+    /* height: 1000px; */
+    width: 40%;
+    box-sizing: border-box;
+    border: 0.01px solid rgb(102, 101, 101);
+   margin-left : 26.5rem;
+   padding-left: 3rem;
+   overflow-y: scroll;
+}

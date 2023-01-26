@@ -1,0 +1,6 @@
+.Date{
+    width : 10em;
+    height : 3em
+}
+
+input[type='date'] { font-size: 1.2em; }

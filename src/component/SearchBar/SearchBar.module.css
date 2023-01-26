@@ -1,0 +1,22 @@
+.searchInput{
+   height: 2.5rem;
+   width: 16rem;
+   padding-left: 2em;
+   padding-right: 3em;
+   border-radius: 20em;
+   /* border: none; */
+   font-size: 1.1em;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.icon2{
+    font-size: 1.2em;
+    position: absolute;
+    top:0.5em;
+    left:0.5em
+}
